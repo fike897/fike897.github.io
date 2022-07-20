@@ -1,0 +1,74 @@
+html{margin: 0px;
+    padding: 0px;
+    display: block;}
+
+
+body{background-image: url(Background-Hot-Dog-Latino.jpg);
+    background-color: whitesmoke;
+    min-height: 100vh;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;}
+
+    .progress{
+        display: block;
+        margin: 0px auto 5px auto;
+        height: 10px;
+        width: 20%;
+        border-radius: 2px;
+        padding: 2px;
+        }
+        
+        .progress .color{
+        background-color: #ffffff;
+        width: 0px;
+        height: 10px;
+        border-radius: 2px;
+        animation: progres 4s infinite linear;    
+        }
+        @keyframes progres{
+            0%{
+              width: 0%;
+            }
+            25%{
+                width: 50%;
+            }
+            50%{
+                width: 75%;
+            }
+            75%{
+                width: 85%;
+            }
+            100%{
+                width: 100%;
+            }
+        }
+        
+        .text { margin: 0px auto 0px auto;
+        padding: 0px;
+        text-align: center;
+        display:block;
+        color: #ffffff;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size:medium;
+        font-weight:lighter;
+        padding-top: 20px;}
+
+        .logo2 {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin: 30px auto 0px auto;
+            padding: 0px 0px 0px 0px;
+            display: block;}
+        
+p{color: #ffffff;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size:small;
+font-weight:lighter;
+text-align: right;
+position: absolute;
+bottom: 0;
+right: 0;}
