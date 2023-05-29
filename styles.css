@@ -3,15 +3,15 @@ body {
 	margin: 0;
 	height: 100vh;
 	width: 100vw;
-	overflow: hidden;}
+	overflow: auto;}
 
 body {
 	font-family: 'Chakra Petch', sans-serif;
-	background-image: url('Floppy_Fike897.jpg');
+	font-weight: 700;
+	background-image: url('Background_MilkyWayFike8972.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
-opacity: 50;}
+	background-size: cover;}
 
 /* Nav Bar*/
 .nav-wrapper {
@@ -65,8 +65,94 @@ opacity: 50;}
 .hidden {
 	display: none;
 }
+/*Nav Bar Ends*/
 
 /* Main section */
+
+.Presentation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: start;
+	color: whitesmoke;
+	height: 60%;
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	}
+
+.main{font-family: 'Russo One', sans-serif;
+	font-size: 5vw;
+	font-weight: lighter;
+	padding: 0 0 0 0;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+	typing 4.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: whitesmoke; }
+}
+
+
+.sub{font-family: 'Urbanist', sans-serif;
+	font-size: 3vw;
+	font-weight: lighter;
+	padding-top: 0px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.email{
+	text-decoration: none;
+	color: whitesmoke;
+	font-family:'Russo One', sans-serif;
+	font-size: 1rem;
+	font-weight: lighter;
+	padding: 14px;
+	margin: 0;
+	border: solid whitesmoke 1px;
+	border-radius: 4px;
+
+}
+
+
+/*Main Section Ends*/
+
+/* Footer*/
+
+footer{
+	position: absolute;
+	bottom: 0;
+	height: 20px;
+	width: 100%;
+	background-color: black;
+}
+
+
+/* Footer Ends*/
 
 /* Responsive */
 @media screen and (max-width: 800px) {
