@@ -1,9 +1,10 @@
 html,
 body {
 	margin: 0;
+	padding: 0;
 	height: 100vh;
 	width: 100vw;
-	overflow:hidden;}
+	overflow:auto;}
 
 body {
 	font-family: 'Chakra Petch', sans-serif;
@@ -75,7 +76,7 @@ body {
 	align-items: center;
 	text-align: start;
 	color: whitesmoke;
-	height: 60%;
+	height: 200px;
 	width: 100%;
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -109,8 +110,9 @@ body {
 
 
 .sub{font-family: 'Urbanist', sans-serif;
-	font-size: 3vw;
+	font-size: 4vw;
 	font-weight: lighter;
+	height:0;
 	padding-top: 0px;
 	margin-top: 3px;
 	margin-bottom: 0px;
@@ -120,9 +122,8 @@ body {
 .button{
 	display: flex;
 	justify-content: center;
-    align-items: center;
 	text-align: center;
-	padding: 0;
+	padding: 15px 0 0 0;
 	margin: 0;
 }
 .email{
@@ -131,7 +132,7 @@ body {
 	font-family:'Russo One', sans-serif;
 	font-size: 1rem;
 	font-weight: lighter;
-	padding: 14px;
+	padding: 12px;
 	margin: 0;
 	border: solid whitesmoke 1px;
 	border-radius: 4px;
@@ -144,19 +145,19 @@ body {
 /* Footer*/
 
 footer{
-	position: absolute;
+	position:fixed;
 	bottom: 0;
-	height: 15px;
+	height: 16px;
 	width: 100%;
-	background-color:transparent;
 	z-index: -1;
 	text-align: end;
 	font-family: Arial, Helvetica, sans-serif;
 	color: whitesmoke;
 	font-size: 0.5rem;
 	font-weight: lighter;
+	background-color: transparent;
 	padding: 0;
-	margin:0;
+	margin:0
 }
 
 p{margin: 3px 3px 5px auto;
@@ -167,6 +168,31 @@ p{margin: 3px 3px 5px auto;
 
 /* Responsive */
 @media screen and (max-width: 800px) {
+
+	footer{
+		font-size: 0.3rem;
+	}
+
+	.Presentation{
+		height: 150px;
+	}
+
+	.email{
+		font-size: 0.7rem;
+		padding: 10px;
+	}
+
+	.logo{
+		height: 50px;
+	}
+
+	.main{
+		font-size: 5vw;
+	}
+
+	.sub{
+		font-size: 4vw;
+	}
 	.nav-container {
 		position: fixed;
 		display: none;
