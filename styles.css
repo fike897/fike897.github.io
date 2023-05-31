@@ -37,6 +37,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-left:25px ;
 }
 
 .logo {
@@ -56,7 +57,8 @@ body {
 	margin: 0;}
 
 .nav-tab:last-child {
-	padding: 10px 10px 0 25px;
+	padding: 10px 0px 0 25px;
+	margin-right: 25px;
 }
 
 .nav-tab,
@@ -129,16 +131,34 @@ body {
 	width:100%;
 }
 .email{
+	display: flex;
+	justify-content: center;
+	text-align: center;
 	text-decoration: none;
 	color: whitesmoke;
 	font-family:'Russo One', sans-serif;
 	font-size: 1rem;
 	font-weight: lighter;
 	padding: 12px;
-	margin: 0;
+	margin: 0 10px;
 	border: solid whitesmoke 1px;
 	border-radius: 4px;
 
+}
+
+.linkedin {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	color: whitesmoke;
+	font-family:'Russo One', sans-serif;
+	font-size: 1rem;
+	font-weight: lighter;
+	padding: 12px;
+	margin: 0 0 0 10px;
+	border: solid whitesmoke 1px;
+	border-radius: 4px;
 }
 
 
@@ -162,7 +182,7 @@ footer{
 	margin:0
 }
 
-p{margin: 3px 3px 5px auto;
+p{margin: 3px 25px 5px auto;
 
 }
 
@@ -181,10 +201,10 @@ p{margin: 3px 3px 5px auto;
 	}
 
 	.button{
-		margin-top: 5px;
+		margin-top: 40px;
 	}
 
-	.email{
+	.email .linkedin{
 		font-size: 0.7rem;
 		padding: 10px;
 	}
